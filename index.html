@@ -1,9 +1,100 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Welcome to my website</title>
-	</head>
-	<body>
-    <p>This is in construction now.</p>
-	</body>
+<html lang="en-us">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176182247-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-176182247-1');
+    </script>
+    <!-- End of Google Analytics -->
+    <meta charset="utf-8">
+    <title>H. Kye's Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+<body>
+    <div class="menu-container">
+        <div class="menu">
+            <div class="menu-table flex-row-center">
+                <a class="menu-button" tabindex="0" href="javascript:void(0)">
+                    <img src="img/menu.png">
+                </a>
+                <div class="menu-items flex-row-center flex-item">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="cv.html">CV</a>
+                    <a href="research.html">Research</a>
+                    <a href="data.html">Data</a>
+                </div>
+            </div>
+            <hr class="header-footer">
+        </div>
+    </div>
+    <!-------------------------------------------------------------------------------------------->
+    <div class="content-container">
+        <div class="content">
+            <div class="content-table flex-column">
+                <!-------------------------------------------------------------------------------------------->
+                <!--Start Intro-->
+                <div class="flex-row">
+                    <div class="flex-item flex-column">
+                        <h2 class="add-bottom-margin">Hyungil Henry Kye</h2>
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <div class="flex-item flex-item-stretch-2 flex-column">
+                        <p class="text-no-margin-bottom">
+                            I am a PhD candidate in the <a target="_blank" href="https://economics.rutgers.edu/">Department of Economics at Rutgers University&ndash;New Brunswck</a> <a target="_blank" href="https://goo.gl/maps/NaAkqkKcaEYLJjQ49"><i class="material-icons" style="font-size:14px;color:#E52B50">place</i></a>. I conduct empirical research in finance with emphasis on <a target="_blank" href="https://doi.org/10.1016/S1386-4181(00)00007-0">market microstructure</a> using <a target="_blank" href="https://www.ibm.com/analytics/hadoop/big-data-analytics">big data analytics</a>. I am also greatly interested in applied econometrics with current focus on <a target="_blank" title="A YouTube lecture by Prof. Susan Athey about ML applications for causal inference" href="https://idss.mit.edu/calendar/idss-distinguished-seminar-susan-athey-stanford-university/">applications of machine learning for causal inference</a> .
+                        </p>
+                        <!--
+                        <p class="text">
+                            I have worked primarily with <a target="_blank" href="https://www.nyse.com/market-data/historical/daily-taq">NYSE TAQ data</a> that record intraday transactions (trades and quotes) for U.S.-traded stocks.
+                        </p>
+                        -->
+                        <p class="text-no-margin-bottom">
+                            I am a big fan of <a target="_blank" href="https://www.r-project.org/">R</a>/<a target="_blank" href="http://www.rcpp.org/">Rcpp</a> programming, which powers most of the quantitative analyses in my papers. I recently started to write R packages to make advanced econometrics more approachable for empirical researchers.
+                        </p>
+                        <p class="text-no-margin-bottom">
+                            I am pleased to announce that I will join the <a target="_blank" href="https://www.aalto.fi/en/department-of-finance">Department of Finance at Aalto University School of Business</a> <a target="_blank" href="https://goo.gl/maps/EKQWC9irKCNFsh6G6"><i class="material-icons" style="font-size:14px;color:#E52B50">place</i></a>as a postdoctoral researcher starting from fall 2021.
+                        </p>                        
+                        <h4 class="add-top-margin">Contact</h4>
+                        <p class="text-no-margin-top">
+                            <!--
+                            Email: <a href="mailto:hky&#101;&#64;&#101;c&#111;n&#111;mics&#46;rutg&#101;rs&#46;&#101;du">hky&#101;&#64;&#101;c&#111;n&#111;mics&#46;rutg&#101;rs&#46;&#101;du</a><br>
+                            -->
+                            Email: <a href="mailto:&#104;e&#110;ry&#107;&#121;&#101;&#51;01&#64;&#103;&#109;a&#105;l.c&#111;&#109;">&#104;e&#110;ry&#107;&#121;&#101;&#51;01&#64;&#103;&#109;a&#105;l.c&#111;&#109;</a><br>
+                            <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/henrykye"><i style="font-size:23px" class="fa">&#xf08c;</i></a>&nbsp;                    
+                            <a target="_blank" title="GitHub" href="https://github.com/henrykye"><img src="img/GitHub-Mark-32px.png" width="20"></a> 
+                            <a target="_blank" title="SSRN" href="https://ssrn.com/author=3199370"><img src="img/ssrn_logo.svg" width="38"></a> 
+                        </p>
+                    </div>
+                    <div class="flex-item flex-item-stretch flex-column">
+                        <img class="image" src="img/profile.jpg">
+                        <p class="text-center text-small text-no-margin-top"><em>@Johnson Park, Piscataway, NJ </em><a href="https://goo.gl/maps/St8mgmyr1SE5Q53e8" target="_blank"><i class="material-icons" style="font-size:14px;color:#E52B50">place</i></a> </p>
+                    </div>
+                </div>
+                <!--End Intro-->
+                <!-------------------------------------------------------------------------------------------->
+            </div>
+            <hr class="header-footer">
+            <p class="text-tiny text-no-margin text-right">&#169; 2021 Hyungil Kye. All rights reserved.&nbsp;&nbsp; </p>
+        </div>
+        
+    </div>
+    
+</body>
+
 </html>

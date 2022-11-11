@@ -5,6 +5,9 @@ project:
     port: 8000
 
 website:
+  google-analytics:
+    tracking-id: "UA-176182247-1"
+    anonymize-ip: true
   title: "Hi there!"
   navbar:
     foreground: "#F5F5DC"

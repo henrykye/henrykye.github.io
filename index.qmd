@@ -7,7 +7,7 @@ about:
   image-shape: rounded
   links:
     - icon: file-text
-      href: https://github.com/henrykye/henrykye.github.io/blob/main/pdf/cv.pdf
+      href: https://github.com/henrykye/henrykye.github.io/raw/main/pdf/cv.pdf
       text: CV
     - icon: linkedin
       href: https://www.linkedin.com/in/henrykye

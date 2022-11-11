@@ -1,0 +1,14 @@
+.navbar{
+  padding-bottom: 2.1rem;
+}
+
+.navbar-brand
+{
+    position: absolute;
+    width: 120px;
+    left: 30%;
+    top: 0;
+    text-align: center;
+    margin-right: 0;
+}
+

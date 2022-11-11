@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 8000
+
+website:
+  title: "Hi there!"
+  navbar:
+    foreground: "#F5F5DC"
+    background: "#3D2B1F"
+  search: false
+  page-footer: |
+    © 2022 Hyungil Kye. All rights reserved.  
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+

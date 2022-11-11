@@ -1,0 +1,48 @@
+---
+title: "Henry Kye, PhD"
+about:
+  template: trestles
+  image: img/profile.jpg
+  image-width: 18em
+  image-shape: rounded
+  links:
+    - icon: file-text
+      href: pdf/cv.pdf
+      text: CV
+    - icon: linkedin
+      href: https://www.linkedin.com/in/henrykye
+      text: LinkedIn
+    - icon: github
+      href: https://github.com/henrykye
+      text: GitHub
+---
+
+## About
+
+**Data Scientist** empowering Digital Transformation in bricks-and-mortar approaches to business and research; **Applied Econometrician** enthusiastic of exploring casual problems with scientific rigors; **Data App Developer** slowly getting to be "full-stacked" by virtue of [R Shiny](https://shiny.rstudio.com)---a revolutionist making data scientists liberated from backend/frontend software engineers!
+
+Professionally, I'm currently working as a **Data Product Specialist**, who is developing and overseeing data products, at [Trial Informatics](https://trialinformatics.com/), a biotech startup in South Korea, digitally transforming the way of conducting clinical research.
+
+**Contact**: <henrykye301@gmail.com>
+
+
+---
+
+## Experience
+
+**Data Product Specialist** | Trial Informatics, Seoul, South Korea | Oct 2022 - Present
+
+**Data Scientist** | Datacrunch Global, Seoul, South Korea | May 2022 - Sept 2022
+
+**Postdoctoral Researcher** | Aalto University School of Business, Espoo, Finland | Sept 2021 - May 2022
+
+---
+
+## Education
+
+**PhD in Economics** | Rutgers University, New Brunswick, NJ  | Sept 2015 - Oct 2021
+
+**MA in Economics** | Soongsil University, Seoul, South Korea | Mar 2013 - Aug 2015
+
+**BA in Economics** | Soongsil University, Seoul, South Korea |  Mar 2007 - Feb 2013
+

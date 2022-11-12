@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources: 
+    - pdf/*.pdf
   preview:
     port: 8000
 
@@ -9,6 +11,7 @@ website:
     tracking-id: "UA-176182247-1"
     anonymize-ip: true
   title: "Hi there!"
+  site-url: https://henrykye.com
   navbar:
     foreground: "#F5F5DC"
     background: "#3D2B1F"

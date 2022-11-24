@@ -9,7 +9,7 @@ project:
 website:
   google-analytics:
     tracking-id: "UA-176182247-1"
-    anonymize-ip: true
+    anonymize-ip: false
   title: "Hi there!"
   site-url: https://henrykye.com
   navbar:
@@ -23,6 +23,8 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    include-after-body: 
+      file: javascript.html
 
 
 

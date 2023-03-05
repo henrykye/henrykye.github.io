@@ -19,18 +19,30 @@ about:
 
 ## About
 
-**Data Scientist** empowering Digital Transformation in bricks-and-mortar approaches to business and research; **Applied Econometrician** enthusiastic of exploring casual problems with scientific rigors; **Data App Developer** slowly getting to be "full-stacked" by virtue of [R Shiny](https://shiny.rstudio.com)---a revolutionist making data scientists liberated from backend/frontend software engineers!
+**Data Scientist** empowering Digital Transformation in bricks-and-mortar approaches to business and research; **Applied Econometrician** enthusiastic of exploring casual problems with scientific rigors; **R Shiny Developer** writing interactive web apps focused on data management and statistical visualizations, especially in the area of health science.
 
-Professionally, I'm currently working as a **Data Product Specialist**, who is developing and overseeing data products, at [Trial Informatics](https://trialinformatics.com/), a biotech startup in South Korea digitally transforming the way of conducting clinical research.
+Professionally, I'm currently working as a **Digital Product Manager** for [Trial Informatics](https://trialinformatics.com){.external target="_blank"}, a biotech startup in South Korea that is digitally transforming the way of conducting clinical trials.
 
 **Contact**: <henrykye301@gmail.com>
+
+---
+
+## News
+
+*Mar. 5, 2023*
+
+I recently served as a moderator for a panel discussion session at the workshop, co-hosted in South Korea by Trial Informatics and Cytel, a global statistical software company in health science. It was a bit challenging but exciting experience! I would like to share the moment:
+
+![Me moderating a panel discussion](img/idmc_workshop.jpg)
+
+
 
 
 ---
 
 ## Experience
 
-**Data Product Specialist** | Trial Informatics, Seoul, South Korea | Oct 2022 - Present
+**Digital Product Manager** | Trial Informatics, Seoul, South Korea | Oct 2022 - Present
 
 **Data Scientist** | Datacrunch Global, Seoul, South Korea | May 2022 - Sept 2022
 

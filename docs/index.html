@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.189">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -115,14 +115,26 @@ ga('send', {
   <div class="about-contents"><main class="content" id="quarto-document-content">
 <section id="about" class="level2">
 <h2 data-anchor-id="about">About</h2>
-<p><strong>Data Scientist</strong> empowering Digital Transformation in bricks-and-mortar approaches to business and research; <strong>Applied Econometrician</strong> enthusiastic of exploring casual problems with scientific rigors; <strong>Data App Developer</strong> slowly getting to be “full-stacked” by virtue of <a href="https://shiny.rstudio.com">R Shiny</a>—a revolutionist making data scientists liberated from backend/frontend software engineers!</p>
-<p>Professionally, I’m currently working as a <strong>Data Product Specialist</strong>, who is developing and overseeing data products, at <a href="https://trialinformatics.com/">Trial Informatics</a>, a biotech startup in South Korea digitally transforming the way of conducting clinical research.</p>
+<p><strong>Data Scientist</strong> empowering Digital Transformation in bricks-and-mortar approaches to business and research; <strong>Applied Econometrician</strong> enthusiastic of exploring casual problems with scientific rigors; <strong>R Shiny Developer</strong> writing interactive web apps focused on data management and statistical visualizations, especially in the area of health science.</p>
+<p>Professionally, I’m currently working as a <strong>Digital Product Manager</strong> for <a href="https://trialinformatics.com" class="external" target="_blank">Trial Informatics</a>, a biotech startup in South Korea that is digitally transforming the way of conducting clinical trials.</p>
 <p><strong>Contact</strong>: <a href="mailto:henrykye301@gmail.com" class="email">henrykye301@gmail.com</a></p>
+<hr>
+</section>
+<section id="news" class="level2">
+<h2 data-anchor-id="news">News</h2>
+<p><em>Mar.&nbsp;5, 2023</em></p>
+<p>I recently served as a moderator for a panel discussion session at the workshop, co-hosted in South Korea by Trial Informatics and Cytel, a global statistical software company in health science. It was a bit challenging but exciting experience! I would like to share the moment:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/idmc_workshop.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Me moderating a panel discussion</figcaption><p></p>
+</figure>
+</div>
 <hr>
 </section>
 <section id="experience" class="level2">
 <h2 data-anchor-id="experience">Experience</h2>
-<p><strong>Data Product Specialist</strong> | Trial Informatics, Seoul, South Korea | Oct 2022 - Present</p>
+<p><strong>Digital Product Manager</strong> | Trial Informatics, Seoul, South Korea | Oct 2022 - Present</p>
 <p><strong>Data Scientist</strong> | Datacrunch Global, Seoul, South Korea | May 2022 - Sept 2022</p>
 <p><strong>Postdoctoral Researcher</strong> | Aalto University School of Business, Espoo, Finland | Sept 2021 - May 2022</p>
 <hr>
@@ -172,7 +184,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -208,34 +237,52 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center">© 2022 Hyungil Kye. All rights reserved.</div>
+      <div class="nav-footer-center">© 2023 Hyungil Kye. All rights reserved.<br>
+</div>
   </div>
 </footer>
-
  <script>
 	Array.prototype.forEach.call(document.getElementsByClassName('about-link'), 
 					item => item.setAttribute("target","_blank"));

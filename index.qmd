@@ -3,8 +3,6 @@ title: "Henry Kye, PhD"
 about:
   template: trestles
   image: img/profile.jpg
-  image-width: 17em
-  image-shape: rounded
   links:
     - icon: file-text
       href: pdf/cv.pdf
@@ -19,9 +17,14 @@ about:
 
 ## About
 
-**Data Scientist** empowering Digital Transformation in bricks-and-mortar approaches to business and research; **Applied Econometrician** enthusiastic of exploring casual problems with scientific rigors; **R Shiny Developer** writing interactive web apps focused on data management and statistical visualizations, especially in the area of health science -- Please visit [here](http://work.henrykye.com/shiny/SkeletonMuscleAge){.external target="_blank"} for my sample Shiny work, created to support research scientists to be more interactive on their research output with outside worlds through a Shiny app.
+**Data Scientist** empowering Digital Transformation in bricks-and-mortar approaches to business and research; **Applied Econometrician** enthusiastic of exploring casual problems with scientific rigors; **R Shiny Developer** writing interactive web apps focused on data management and statistical visualizations, especially in the area of health science
 
-Professionally, I'm currently working as a **Digital Product Manager** for [Trial Informatics](https://trialinformatics.com){.external target="_blank"}, a Korea-based tech startup in the biopharma research industry that is digitally transforming the way of conducting clinical trials.
+::: {class="shiny-example"}
+Please visit [here](http://work.henrykye.com/shiny/SkeletonMuscleAge){.external target="_blank"} for my sample Shiny work, created to support research scientists to be more interactive on their research output with outside worlds through a Shiny app.
+:::
+
+
+Professionally, I'm currently working as a **Digital Product Manager** for [Trial Informatics](https://trialinformatics.com){.external target="_blank"}, a Korea-based tech startup in the biopharma research industry that is digitally transforming the way of running/overseeing clinical trials.
 
 **Contact**: <br>
 <henrykye301@gmail.com> (personal) <henry.kye@trialinformatics.com> (business)

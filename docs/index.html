@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hi there! - Henry Kye, PhD</title>
+<title>Hi, there! - Henry Kye, PhD</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -61,6 +61,7 @@ ga('send', {
   'anonymizeIp': false,
 });
 </script>
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -74,7 +75,7 @@ ga('send', {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Hi there!</span>
+    <span class="navbar-title">Hi, there!</span>
     </a>
   </div>
       </div> <!-- /container-fluid -->
@@ -89,7 +90,7 @@ ga('send', {
 <div class="quarto-about-trestles">
   <div class="about-entity">
     <img src="img/profile.jpg" class="about-image
-  rounded " style="width: 17em;">
+  rounded " style="width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Henry Kye, PhD</h1>
@@ -115,8 +116,11 @@ ga('send', {
   <div class="about-contents"><main class="content" id="quarto-document-content">
 <section id="about" class="level2">
 <h2 data-anchor-id="about">About</h2>
-<p><strong>Data Scientist</strong> empowering Digital Transformation in bricks-and-mortar approaches to business and research; <strong>Applied Econometrician</strong> enthusiastic of exploring casual problems with scientific rigors; <strong>R Shiny Developer</strong> writing interactive web apps focused on data management and statistical visualizations, especially in the area of health science – Please visit <a href="http://work.henrykye.com/shiny/SkeletonMuscleAge" class="external" target="_blank">here</a> for my sample Shiny work, created to support research scientists to be more interactive on their research output with outside worlds through a Shiny app.</p>
-<p>Professionally, I’m currently working as a <strong>Digital Product Manager</strong> for <a href="https://trialinformatics.com" class="external" target="_blank">Trial Informatics</a>, a Korea-based tech startup in the biopharma research industry that is digitally transforming the way of conducting clinical trials.</p>
+<p><strong>Data Scientist</strong> empowering Digital Transformation in bricks-and-mortar approaches to business and research; <strong>Applied Econometrician</strong> enthusiastic of exploring casual problems with scientific rigors; <strong>R Shiny Developer</strong> writing interactive web apps focused on data management and statistical visualizations, especially in the area of health science</p>
+<div class="shiny-example">
+<p>Please visit <a href="http://work.henrykye.com/shiny/SkeletonMuscleAge" class="external" target="_blank">here</a> for my sample Shiny work, created to support research scientists to be more interactive on their research output with outside worlds through a Shiny app.</p>
+</div>
+<p>Professionally, I’m currently working as a <strong>Digital Product Manager</strong> for <a href="https://trialinformatics.com" class="external" target="_blank">Trial Informatics</a>, a Korea-based tech startup in the biopharma research industry that is digitally transforming the way of running/overseeing clinical trials.</p>
 <p><strong>Contact</strong>: <br> <a href="mailto:henrykye301@gmail.com" class="email">henrykye301@gmail.com</a> (personal) <a href="mailto:henry.kye@trialinformatics.com" class="email">henry.kye@trialinformatics.com</a> (business)</p>
 <hr>
 </section>
@@ -286,6 +290,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
  <script>
 	Array.prototype.forEach.call(document.getElementsByClassName('about-link'), 
 					item => item.setAttribute("target","_blank"));
+					
+	$(".navbar-dark").css("background-color", "#035096");
 </script>
 
 

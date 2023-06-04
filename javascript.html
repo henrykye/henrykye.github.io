@@ -1,6 +1,22 @@
- <script>
+<script>
 	Array.prototype.forEach.call(document.getElementsByClassName('about-link'), 
 					item => item.setAttribute("target","_blank"));
 					
 	$(".navbar-dark").css("background-color", "#035096");
+	
+	
+	$('head').prepend(
+	"<script> \
+	    window.dataLayer = window.dataLayer || []; \
+	    function gtag(){dataLayer.push(arguments);} \
+	    gtag('js', new Date()); \
+	    gtag('config', 'G-QT71NCCDHB');"
+    );
+	
+	$('head').prepend(
+	    "<script async src='https://www.googletagmanager.com/gtag/js?id=G-QT71NCCDHB'>"
+	);
+	
 </script>
+
+

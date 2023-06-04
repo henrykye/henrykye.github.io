@@ -20,7 +20,7 @@ format:
     css: styles.css
     include-in-header:
       - text: '<script src="https://code.jquery.com/jquery-3.7.0.js"></script>'
-#      - file: google-analytics.html
+      - file: google-analytics.html
     include-after-body: 
       file: javascript.html
 

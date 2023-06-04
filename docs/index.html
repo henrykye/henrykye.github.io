@@ -47,6 +47,15 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-QT71NCCDHB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QT71NCCDHB');
+</script>
 <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
 
 
@@ -278,20 +287,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 					item => item.setAttribute("target","_blank"));
 					
 	$(".navbar-dark").css("background-color", "#035096");
-	
-	
-	$('head').prepend(
-	"<script> \
-	    window.dataLayer = window.dataLayer || []; \
-	    function gtag(){dataLayer.push(arguments);} \
-	    gtag('js', new Date()); \
-	    gtag('config', 'G-QT71NCCDHB');"
-    );
-	
-	$('head').prepend(
-	    "<script async src='https://www.googletagmanager.com/gtag/js?id=G-QT71NCCDHB'>"
-	);
-	
 </script>
 
 

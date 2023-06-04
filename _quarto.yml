@@ -5,9 +5,6 @@ project:
     - pdf/*.pdf
 
 website:
-  google-analytics:
-    tracking-id: "UA-176182247-1"
-    anonymize-ip: false
   title: "Hi, there!"
   site-url: https://henrykye.com
   navbar:
@@ -21,8 +18,9 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    include-in-header: 
-      text: '<script src="https://code.jquery.com/jquery-3.7.0.js"></script>'
+    include-in-header:
+      - text: '<script src="https://code.jquery.com/jquery-3.7.0.js"></script>'
+      - file: google-analytics.html
     include-after-body: 
       file: javascript.html
 

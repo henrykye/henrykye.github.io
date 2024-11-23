@@ -1,8 +1,9 @@
 <script>
-	Array.prototype.forEach.call(document.getElementsByClassName('about-link'), 
-					item => item.setAttribute("target","_blank"));
-					
-	$(".navbar-dark").css("background-color", "#035096");
+    $(document).ready(function(){
+		$(".about-link").attr("target", "_blank");
+		$(".navbar-dark").css("background-color", "#035096");
+		$("footer.footer .nav-footer-center").text("Copyright © 2023 Hyungil Kye. All rights reserved.")
+    })
 </script>
 
 

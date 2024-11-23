@@ -2,27 +2,28 @@ project:
   type: website
   output-dir: docs
   resources: 
-    - pdf/*.pdf
+    - static/pdf/*.pdf
+    - static/js/*.js
+    - CNAME
 
 website:
   title: "Hi, there!"
   site-url: https://henrykye.com
   navbar:
     foreground: "#F5F5DC"
-    background: "#3D2B1F"
+    background: "#112D4E"
   search: false
   page-footer: |
-    © 2023 Hyungil Kye. All rights reserved.  
+    Hyungil Kye. All rights reserved.
 
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: static/css/styles.css
     include-in-header:
       - text: '<script src="https://code.jquery.com/jquery-3.7.0.js"></script>'
+      - text: '<script src="static/js/jscode.js"></script>'
       - file: google-analytics.html
-    include-after-body: 
-      file: javascript.html
 
 
 

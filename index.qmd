@@ -2,10 +2,10 @@
 title: "Henry Kye, PhD"
 about:
   template: trestles
-  image: img/profile.jpg
+  image: static/img/profile.jpg
   links:
     - icon: file-text
-      href: pdf/cv.pdf
+      href: static/pdf/cv.pdf
       text: CV
     - icon: linkedin
       href: https://www.linkedin.com/in/henrykye
@@ -17,48 +17,57 @@ about:
 
 ## About
 
-**Data Scientist** empowering Digital Transformation in bricks-and-mortar approaches to business and research; **Applied Econometrician** enthusiastic of exploring casual problems with scientific rigors; **R Shiny Developer** writing interactive web apps focused on data management and statistical visualizations, especially in the area of health science
+As a passionate entrepreneur, I'm embarking on a mission to empower Small to Medium-sized Enterprises (SMEs) to harness the power of Digital Transformation. I believe that every business deserves access to cutting-edge resources, and I'm committed to helping SMEs overcome the common barriers that hinder their growth.
 
-::: {class="shiny-example"}
-Please visit [here](http://work.henrykye.com/shiny/SkeletonMuscleAge){.external target="_blank"} for my sample Shiny work, created to support research scientists to be more interactive on their research output with outside worlds through a Shiny app.
-:::
+In addition, I'm a **Quantitative Economist** enthusiastic of exploring casual problems with scientific rigors; **Data Scientist** supporting a data-driven decision making system in business and research operation; **R/Shiny Developer** writing interactive web apps focused on data-centered business and research projects.
+
+<!-- ::: {class="shiny-example"} -->
+<!-- Please visit [here](http://work.henrykye.com/shiny/SkeletonMuscleAge){.external target="_blank"} for my sample Shiny work, created to support research scientists to be more interactive on their research output with outside worlds through a Shiny app. -->
+<!-- ::: -->
 
 
-Professionally, I'm currently working as a **Digital Product Manager** for [Trial Informatics](https://trialinformatics.com){.external target="_blank"}, a Korea-based tech startup in the biopharma research industry that is digitally transforming the way of running/overseeing clinical trials.
 
 **Contact**: <br>
-<henrykye301@gmail.com> (personal) <henry.kye@trialinformatics.com> (business)
+<henry.kye@dantevision.com> (business) <br>
+<henrykye301@gmail.com> (personal) 
+
+<!-- --- -->
+
+<!-- ## News -->
+
+<!-- *Jan. 2, 2024* -->
+
+<!-- Beginning with 2024, I started my own business as an entrepreneur. -->
+
+
+<!-- *Mar. 5, 2023* -->
+
+<!-- I recently served as a moderator for a panel discussion at a workshop, co-hosted by Trial Informatics and Cytel, a global statistical software company in life science. It was a bit challenging but exciting! I would like to share the moment: -->
+
+<!-- ![Me moderating a panel discussion](static/img/idmc_workshop.jpg) -->
+
+
+
 
 ---
 
-## News
+## Professional Experience
 
-*Mar. 5, 2023*
+**Founder & CEO** <br> [DanteVision](https://dantevision.com){target="_blank"}, South Korea | Jan 2024 -- Present
 
-I recently served as a moderator for a panel discussion at a workshop, co-hosted by Trial Informatics and Cytel, a global statistical software company in life science. It was a bit challenging but exciting! I would like to share the moment:
+**Head, Digital Product & Digital Product Manager** <br> [Trial Informatics](https://trialinformatics.com){target="_blank"}, South Korea | Oct. 2022 -- Dec. 2023
 
-![Me moderating a panel discussion](img/idmc_workshop.jpg)
+**Junior Data Scientist** <br> Datacrunch Global, South Korea | May 2022 -- Sept. 2022
 
-
-
-
----
-
-## Experience
-
-**Digital Product Manager** | Trial Informatics, Seoul, South Korea | Oct 2022 -- Present
-
-**Data Scientist** | Datacrunch Global, Seoul, South Korea | May 2022 -- Sept 2022
-
-**Postdoctoral Researcher** | Aalto University School of Business, Espoo, Finland | Sept 2021 -- May 2022
+**Postdoctoral Researcher in Finance** <br> [Aalto University](https://www.aalto.fi/en/department-of-finance){target="_blank"}, Finland | Sept. 2021 -- May 2022
 
 ---
 
 ## Education
 
-**PhD in Economics** | Rutgers University, New Brunswick, NJ  | Sept 2015 -- Oct 2021
+**PhD in Economics** | Rutgers University, New Brunswick, NJ  | Sept. 2015 -- Oct. 2021
 
-**MA in Economics** | Soongsil University, Seoul, South Korea | Mar 2013 -- Aug 2015
+**MA in Economics** | Soongsil University, Seoul, South Korea | Mar. 2013 -- Aug. 2015
 
-**BA in Economics** | Soongsil University, Seoul, South Korea |  Mar 2007 -- Feb 2013
+**BA in Economics** | Soongsil University, Seoul, South Korea |  Mar. 2007 -- Feb. 2013
 

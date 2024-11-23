@@ -10,9 +10,9 @@ about:
     - icon: linkedin
       href: https://www.linkedin.com/in/henrykye
       text: LinkedIn
-    - icon: github
-      href: https://github.com/henrykye
-      text: GitHub
+    # - icon: github
+    #   href: https://github.com/henrykye
+    #   text: GitHub
 ---
 
 ## About
@@ -53,7 +53,7 @@ In addition, I'm a **Quantitative Economist** enthusiastic of exploring casual p
 
 ## Professional Experience
 
-**Founder & CEO** <br> [DanteVision](https://dantevision.com){target="_blank"}, South Korea | Jan 2024 -- Present
+**Founder & CEO** <br> [DanteVision](https://dantevision.com){target="_blank"}, South Korea | Jan. 2024 -- Present
 
 **Head, Digital Product & Digital Product Manager** <br> [Trial Informatics](https://trialinformatics.com){target="_blank"}, South Korea | Oct. 2022 -- Dec. 2023
 
